@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author             = { "Gokhan Alp" => "dev.gokhan@hotmail.com" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/devgokhan/GKPDropDown.git", :tag => "#{s.version}" }
-  s.source_files  = "GKPDropDown"
+  s.source_files  = "GKPDropDown/**/*"
 
 end
